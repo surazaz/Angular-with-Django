@@ -1,0 +1,8 @@
+
+<div class="row">
+  <label class="col-md-3">Enter new email:</label>
+  <div class="col-md-9 mb-1"><input type="text" name="body" [(ngModel)]="new_user.email"></div>
+   <label class="col-md-3">Enter new password:</label><input type="text" name="body" [(ngModel)]="new_user.password"></div>
+  <div class="col-md-2 offset-3">
+    <button (click)="createUser()" class="btn btn-primary">Save</button>
+  </div>
